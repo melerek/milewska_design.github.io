@@ -8,8 +8,8 @@
 </head>
 <body>
     <!-- Header Component -->
-    <div id="header">
-        <header>
+    <header>
+        <div class="container">
             <h1>Interior Designer</h1>
             <nav>
                 <ul>
@@ -18,35 +18,41 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>
+        </div>
+    </header>
 
     <main>
-        <section id="about">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Discover my work and design philosophy.</p>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Discover my work and design philosophy.</p>
+            </div>
         </section>
 
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <div class="gallery-item">
-                <img src="assets/images/design1.jpg" alt="Design 1">
-                <p>Modern Living Room</p>
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-item">
+                    <img src="assets/images/design1.jpg" alt="Design 1">
+                    <p>Modern Living Room</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/design2.jpg" alt="Design 2">
+                    <p>Cozy Bedroom</p>
+                </div>
+                <!-- Add more gallery items as needed -->
             </div>
-            <div class="gallery-item">
-                <img src="assets/images/design2.jpg" alt="Design 2">
-                <p>Cozy Bedroom</p>
-            </div>
-            <!-- Add more gallery items as needed -->
         </section>
     </main>
 
     <!-- Footer Component -->
-    <div id="footer">
-        <footer>
+    <footer>
+        <div class="container">
             <p>&copy; 2025 Interior Designer. All rights reserved.</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
     <script src="assets/js/scripts.js"></script>
 </body>
