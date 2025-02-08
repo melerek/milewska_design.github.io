@@ -1,0 +1,29 @@
+{
+  "name": "interior-designer-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website for an interior designer showcasing their work and services.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here.'"
+  },
+  "keywords": [
+    "interior design",
+    "portfolio",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://your-portfolio-website.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/interior-designer-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/interior-designer-portfolio/issues"
+  }
+}
